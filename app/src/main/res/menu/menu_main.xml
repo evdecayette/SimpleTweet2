@@ -4,7 +4,10 @@
 
     <item
         android:id="@+id/compose"
-        android:icon="@drawable/twitter_edit"
+        android:icon="@drawable/twitter_edit1"
+        android:menuCategory="system"
+        android:numericShortcut="@string/app_name"
         android:title="Compose"
+        android:visible="true"
         app:showAsAction="always" />
 </menu>
